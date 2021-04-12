@@ -1,10 +1,13 @@
 // @ts-ignore
 firebase.initializeApp({
-  apiKey: "AIzaSyDfJiJW2_AW1p-PKmt3w6h7kWPc9VmvzYM",
-  authDomain: "gilpgiotx.firebaseapp.com",
-  databaseURL: "https://gilpgiotx.firebaseio.com",
-  projectId: "gilpgiotx",
-  storageBucket: "gilpgiotx.appspot.com",
-  messagingSenderId: "362186415969",
-  appId: "1:362186415969:web:e732f8610cfdae9544ef20"
+var firebaseConfig = {
+    apiKey: "AIzaSyDuwdLXim0FyoRMdfXEdWfmJbtu81rNpaw",
+    authDomain: "pwa-iot-6a844.firebaseapp.com",
+    projectId: "pwa-iot-6a844",
+    storageBucket: "pwa-iot-6a844.appspot.com",
+    messagingSenderId: "969288659485",
+    appId: "1:969288659485:web:660142f2fc686e6c9e8cf4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 });
