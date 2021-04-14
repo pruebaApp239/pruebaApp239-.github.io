@@ -7,6 +7,7 @@ body {
 .contenido {
   display: inline-block;
   text-align: start;
+  background-colo: #F5F5F5
 }
 
 meter,
